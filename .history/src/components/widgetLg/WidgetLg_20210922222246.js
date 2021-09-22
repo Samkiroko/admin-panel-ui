@@ -37,7 +37,7 @@ const WidgetLg = () => {
           <td className='widgetLgDate'>2 Jun 2021</td>
           <td className='widgetLgAmount'>$122.00</td>
           <td className='widgetLgStatus'>
-            <Button type='Pending' />
+            <Button type='Approved' />
           </td>
         </tr>
         <tr className='widgetLgTr'>
@@ -62,18 +62,6 @@ const WidgetLg = () => {
           <td className='widgetLgAmount'>$122.00</td>
           <td className='widgetLgStatus'>
             <Button type='Declined' />
-          </td>
-        </tr>
-        <tr className='widgetLgTr'>
-          <td className='widgetLgUser'>
-            {' '}
-            <img src={avatar} alt='avatar' className=' widgetLgImg' />
-            <span className='widgetLgName'>Sam kiroko</span>
-          </td>
-          <td className='widgetLgDate'>2 Jun 2021</td>
-          <td className='widgetLgAmount'>$122.00</td>
-          <td className='widgetLgStatus'>
-            <Button type='Approved' />
           </td>
         </tr>
       </table>
