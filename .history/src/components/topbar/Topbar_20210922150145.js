@@ -1,7 +1,7 @@
 import React from 'react'
 import './topbar.css'
 import { Language, NotificationsNone, Settings } from '@material-ui/icons'
-import avatar from '../../images/sam_pic.jpeg'
+
 const Topbar = () => {
   return (
     <div className='topbar'>
@@ -21,7 +21,6 @@ const Topbar = () => {
           <div className='topbarIconContainer'>
             <Settings />
           </div>
-          <img src={avatar} alt='avatar' className='topAvatar' />
         </div>
       </div>
     </div>

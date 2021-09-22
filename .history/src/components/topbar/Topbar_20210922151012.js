@@ -21,7 +21,7 @@ const Topbar = () => {
           <div className='topbarIconContainer'>
             <Settings />
           </div>
-          <img src={avatar} alt='avatar' className='topAvatar' />
+          <img src={avatar} alt='' className='topAvatar' />
         </div>
       </div>
     </div>
