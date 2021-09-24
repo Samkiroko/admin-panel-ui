@@ -1,0 +1,25 @@
+.userList {
+    flex: 4;
+}
+
+.userListUser {
+    display: flex;
+    align-items: center;
+}
+
+.userListUser img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: fit;
+    margin-right: 10px;
+}
+
+.userListEdit {
+    border: none;
+    border-radius: 10px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}

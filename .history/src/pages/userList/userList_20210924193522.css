@@ -1,0 +1,15 @@
+.userList {
+    flex: 4;
+}
+
+.userListUser {
+    display: flex;
+    align-items: center;
+}
+
+.userListUser img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: fit;
+}
