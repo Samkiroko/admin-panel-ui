@@ -1,0 +1,12 @@
+.user {
+    flex: 4;
+    padding: 20px;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.userTitleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

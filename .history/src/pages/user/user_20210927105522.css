@@ -1,0 +1,19 @@
+.user {
+    flex: 4;
+    padding: 20px;
+}
+
+.userTitleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.userAddButton {
+    width: 80px;
+    border: none;
+    background-color: teal;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
